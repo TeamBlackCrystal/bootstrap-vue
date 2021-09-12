@@ -8,7 +8,7 @@ updates:
       time: "12:00"
       timezone: Europe/Berlin
     reviewers:
-      - jackmu95
+      - sousuke0422
     labels:
       - "Type: CI"
       - "Type: Dependencies"
@@ -33,7 +33,7 @@ updates:
       - dependency-name: "@vue/test-utils"
         versions: [">=2.0.0"]
     reviewers:
-      - jackmu95
+      - sousuke0422
     labels:
       - "Type: Dependencies"
     versioning-strategy: increase
