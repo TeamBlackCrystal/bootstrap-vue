@@ -45,7 +45,7 @@ terser dist/@ayuskey/bootstrap-vue.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue.js.map,includeSources,url=bootstrap-vue.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue.js.map',includeSources,url=bootstrap-vue.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue.min.js
 terser dist/@ayuskey/bootstrap-vue-icons.js \
     --compress typeofs=false \
@@ -53,7 +53,7 @@ terser dist/@ayuskey/bootstrap-vue-icons.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue-icons.js.map,includeSources,url=bootstrap-vue-icons.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue-icons.js.map',includeSources,url=bootstrap-vue-icons.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue-icons.min.js
 terser dist/@ayuskey/bootstrap-vue.common.js \
     --compress typeofs=false \
@@ -61,7 +61,7 @@ terser dist/@ayuskey/bootstrap-vue.common.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue.common.js.map,includeSources,url=bootstrap-vue.common.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue.common.js.map',includeSources,url=bootstrap-vue.common.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue.common.min.js
 terser dist/@ayuskey/bootstrap-vue-icons.common.js \
     --compress typeofs=false \
@@ -69,7 +69,7 @@ terser dist/@ayuskey/bootstrap-vue-icons.common.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue-icons.common.js.map,includeSources,url=bootstrap-vue-icons.common.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue-icons.common.js.map',includeSources,url=bootstrap-vue-icons.common.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue-icons.common.min.js
 terser dist/@ayuskey/bootstrap-vue.esm.js \
     --compress typeofs=false \
@@ -77,7 +77,7 @@ terser dist/@ayuskey/bootstrap-vue.esm.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue.esm.js.map,includeSources,url=bootstrap-vue.esm.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue.esm.js.map',includeSources,url=bootstrap-vue.esm.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue.esm.min.js
 terser dist/@ayuskey/bootstrap-vue-icons.esm.js \
     --compress typeofs=false \
@@ -85,7 +85,7 @@ terser dist/@ayuskey/bootstrap-vue-icons.esm.js \
     --toplevel \
     --keep-classnames \
     --comments "/^!/" \
-    --source-map "content=dist/@ayuskey/bootstrap-vue-icons.esm.js.map,includeSources,url=bootstrap-vue-icons.esm.min.js.map" \
+    --source-map "content='dist/@ayuskey/bootstrap-vue-icons.esm.js.map',includeSources,url=bootstrap-vue-icons.esm.min.js.map" \
     --output dist/@ayuskey/bootstrap-vue-icons.esm.min.js
 echo 'Done.'
 echo ''

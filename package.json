@@ -2,21 +2,21 @@
   "name": "@ayuskey/bootstrap-vue",
   "version": "2.21.2",
   "description": "With more than 85 components, over 45 available plugins, several directives, and 1000+ icons, BootstrapVue provides one of the most comprehensive implementations of the Bootstrap v4 component and grid system available for Vue.js v2.6, complete with extensive and automated WAI-ARIA accessibility markup.",
-  "main": "dist/bootstrap-vue.common.js",
-  "web": "dist/bootstrap-vue.js",
+  "main": "dist/@ayuskey/bootstrap-vue.common.js",
+  "web": "dist/@ayuskey/bootstrap-vue.js",
   "module": "esm/index.js",
   "jsnext:main": "esm/index.js",
   "source": "src/index.js",
   "sass": "src/index.scss",
-  "style": "dist/bootstrap-vue.css",
+  "style": "dist/@ayuskey/bootstrap-vue.css",
   "license": "MIT",
   "repository": "bootstrap-vue/bootstrap-vue",
   "homepage": "https://bootstrap-vue.org",
   "types": "src/index.d.ts",
-  "web-types": "dist/web-types.json",
+  "web-types": "dist/@ayuskey/web-types.json",
   "vetur": {
-    "tags": "dist/vetur-tags.json",
-    "attributes": "dist/vetur-attributes.json"
+    "tags": "dist/@ayuskey/vetur-tags.json",
+    "attributes": "dist/@ayuskey/vetur-attributes.json"
   },
   "contributors": [
     {
